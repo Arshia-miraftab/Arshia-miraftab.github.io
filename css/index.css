@@ -14,6 +14,9 @@
     font-family: 'RazerF5Thin';
     src: url('../fonts/RazerF5Thin.woff') format('woff'),
 }
+.navigation{
+    box-shadow: 0 1px 2px 0.6px #44d62c;
+}
 #menu{
     width: 48px;
     height: 48px;
@@ -25,6 +28,12 @@
     color: rgb(153, 153, 153);
     font-family: RazerF5Light;
     font-weight: 300;
+    -webkit-transition:all 0.1s linear 0s;
+    -moz-transition:all 0.1s linear 0s;
+    transition: all 0.1s linear 0s;
+}
+.navigation a:hover{
+    color: #f6f6f6;
 }
 .nav-icon{
     font-size: 18px;
@@ -33,25 +42,27 @@
     height: 40px;
     list-style-type: none;
 }
-
+/* esm sm */
 @media all and (max-width:767px) {
     .nav-icon{
         font-size: 22px;
     }
 }
-
+/* md lg xl xxl */
 @media all and (min-width:768px) {
     .navigation{
         height: 60px;
+        position: fixed;
     }
 }
+/* md */
 /* 991px */
 @media all and (min-width:768px) and (max-width:991px) {
     .navigation li{
         margin-right: 2.4vw;
     }
 }
-
+/* lg xl xxl */
 @media all and (min-width:992px) {
     .navigation li{
         margin-right: 4.2vw;
