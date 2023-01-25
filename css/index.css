@@ -14,6 +14,10 @@
     font-family: 'RazerF5Thin';
     src: url('../fonts/RazerF5Thin.woff') format('woff'),
 }
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto.woff2') format('woff2'),
+}
 .navigation{
     box-shadow: 0 1px 2px 0.6px #44d62c;
 }
@@ -42,6 +46,50 @@
     height: 40px;
     list-style-type: none;
 }
+/* ******************************** */
+.box1{
+    background-color: #1a1a1a;
+    padding: 0 10px 0 10px;
+}
+.box1 ul{
+    height: 120px;
+    background-color: #1a1a1a;
+    list-style-type: none;
+}
+.box1 li{
+    margin-right: 35px;
+}
+.box1 a{
+    height: 66px;
+    color: #f6f6f6;
+    font-family: Roboto;
+    font-size: 12px; 
+    font-weight: 400;
+    -webkit-transition:all 0.1s linear 0s;
+    -moz-transition:all 0.1s linear 0s;
+    transition: all 0.1s linear 0s;
+}
+.box1 a:hover{
+    color: #44d626;
+}
+#n1{
+    color: #dca01c;
+    font-family: Roboto;
+    font-size: 12px; 
+    font-weight: 400;  
+}
+.custom-w1{
+    width: 78px;
+}
+.custom-w2{
+    width: 76px;
+}
+.custom-w3{
+    width: 73px;
+}
+.custom-w4{
+    width: 49px;
+}
 /* esm sm */
 @media all and (max-width:767px) {
     .nav-icon{
@@ -53,6 +101,9 @@
     .navigation{
         height: 60px;
         position: fixed;
+    }
+    .box1{
+        margin-top: 60px;
     }
 }
 /* md */
