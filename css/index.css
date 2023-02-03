@@ -149,6 +149,7 @@
     font-family: RazerF5Thin,sans-serif;
     font-size: 36px;
     font-weight: 200;
+    letter-spacing: 1px;
     line-height: 36px;
     padding-bottom: 5px;
 }
@@ -159,6 +160,58 @@
     font-weight: 300;
     line-height: 28px;
 }
+/* ********************** */
+.box4{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    border-bottom: 0.8px solid rgb(68, 214, 44);
+}
+.box4 div{
+    max-width: 1200px;
+}
+.box4 h2{
+    font-family: RazerF5Light;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding-top: 65px;
+    margin-bottom: 19.2px;
+}
+.box4 p{
+    max-width: 750px;
+    color: rgb(153, 153, 153);
+    font-family: Roboto-Light;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 7px 0 20px 0;
+}
+.box4 a{
+    color: rgb(68, 214, 44);
+    text-decoration: none;
+    font-family: Roboto-Light;
+    font-weight: 300;
+    line-height: 27.4px;
+}
+.box4 a:hover{
+    text-decoration: underline;
+}
+/* esm */
+@media all and (max-width:576px) {
+    .box4{
+        min-height: 480px;
+    }
+    .box4 div h2{
+        padding-top: 40px;
+    }
+}
+/* sm */
+@media all and (min-width:576px) and (max-width:768px) {
+    .box4{
+        min-height: 530px;
+    }
+}
 /* esm sm */
 @media all and (max-width:768px) {
     
@@ -167,6 +220,9 @@
     }
     .box3 div{
         padding: 0 18px 0 18px;
+    }
+    .box4{
+        background-image: url("../images/razer-edge-450x480-mobile-cat-banner.jpg");
     }
 }
 
@@ -180,6 +236,10 @@
 
     .box1 {
         margin-top: 60px;
+    }
+    .box4{
+        min-height: 700px;
+        background-image: url("../images/razer-edge-1920x700-desktop-cat-banner.jpg");
     }
 }
 
