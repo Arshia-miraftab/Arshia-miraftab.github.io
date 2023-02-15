@@ -64,7 +64,6 @@
 
 .top-ul {
     height: 40px;
-    list-style-type: none;
 }
 
 /*box1 ******************************************************** */
@@ -77,7 +76,6 @@
 .box1 ul {
     height: 120px;
     background-color: #1a1a1a;
-    list-style-type: none;
 }
 
 .box1 li {
@@ -209,6 +207,7 @@
 .content-box a:hover {
     text-decoration: underline;
 }
+
 /* box5-7 ********************************************* */
 .box-main {
     min-height: 602.733px;
@@ -219,10 +218,12 @@
 .box-sub {
     max-width: 1200px;
 }
-.item-box{
+
+.item-box {
     background-color: rgb(17, 17, 17);
     border-bottom: 0.8px solid rgb(68, 214, 44);
 }
+
 .span-box {
     font-family: Roboto-Light;
     font-size: 18px;
@@ -248,23 +249,83 @@
     line-height: 27px;
     padding: 10px;
 }
-.link-box:hover{
+
+.link-box:hover {
     color: rgb(68, 214, 44);
 }
-/* box6 ******************************* */
-.box6 ul{
-    list-style-type: none;
-}
-/* box8 ******************************* */
 
+/* box10 ******************************* */
+.box10{
+    background-color: rgb(17, 17, 17);
+}
+.box10-main {
+    max-width: 1200px;
+    background-color: rgb(17, 17, 17);
+    padding: 0 18px 25px 18px;
+}
+
+.accordion-item {
+    border-bottom: 0.8px solid rgb(59, 59, 59);
+}
+
+.accordion-button {
+    background-color: rgb(17, 17, 17) !important;
+    padding: 17.6px 0 17.6px 0;
+}
+
+.footer-span{
+    background-color: rgb(17, 17, 17) !important;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.accordion-body {
+    background-color: rgb(17, 17, 17);
+    padding: 0 0 17.6px 0;
+}
+
+.mh-1 {
+    line-height: 15.2px;
+}
+
+.mh-2 {
+    color: rgb(153, 153, 153);
+    font-family: Roboto;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.mh-2:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.footer-main span{
+    padding-bottom: 12px;
+}
+.footer-main li{
+    padding-bottom: 12px;
+}
+.sp-1{
+    color: rgb(68, 214, 44);
+    font-family: RazerF5;
+    font-size: 14.4px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.box10-sub1{
+    border-top: 0.8px solid #2a2a2a;
+}
 /* esm */
 @media all and (max-width:576px) {
     .box4 {
         min-height: 480px;
     }
-    .box6{
+
+    .box6 {
         min-height: 500px;
     }
+
     .content-box h2 {
         padding-top: 40px;
     }
@@ -291,12 +352,22 @@
     .box4 {
         background-image: url("../images/razer-edge-450x480-mobile-cat-banner.jpg");
     }
-    .box6{
+
+    .box6 {
         background-image: url("../images/stay-in-sync450x480.jpg");
     }
-    .box8{
+
+    .box8 {
         min-height: 530px;
         background-image: url("../images/gotheextramile-category-450x480-mobile.jpg");
+    }
+
+    .box10-sub1 {
+        padding: 12.8px 0 20px 0;
+    }
+
+    .as-1 {
+        padding: 10px 0 10px 0;
     }
 }
 
@@ -315,19 +386,17 @@
     .content-box {
         min-height: 700px;
     }
-    .box4{
-        background-image: url("../images/razer-edge-1920x700-desktop-cat-banner.jpg");        
+
+    .box4 {
+        background-image: url("../images/razer-edge-1920x700-desktop-cat-banner.jpg");
     }
-    .box6{
-        background-image: url("../images/stay-in-sync-1920x700.jpg");        
+
+    .box6 {
+        background-image: url("../images/stay-in-sync-1920x700.jpg");
     }
-    .box8{
-        background-image: url("../images/gothe-extramile-category-1920x700-desktop.jpg");        
+
+    .box8 {
+        background-image: url("../images/gothe-extramile-category-1920x700-desktop.jpg");
     }
+
 }
-
-/* md */
-@media all and (min-width:768px) and (max-width:992px) {}
-
-/* lg xl xxl */
-@media all and (min-width:992px) {}
