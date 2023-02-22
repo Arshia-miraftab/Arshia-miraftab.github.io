@@ -313,6 +313,9 @@
     font-weight: 400;
     letter-spacing: 0.5px;
 }
+.sp-1:hover{
+    color: rgb(68, 214, 44);
+}
 .box10-sub1{
     border-top: 0.8px solid #2a2a2a;
 }
