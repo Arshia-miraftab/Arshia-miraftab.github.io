@@ -255,32 +255,33 @@
 }
 
 /* box10 ******************************* */
-.box10{
+.box10 {
     background-color: rgb(17, 17, 17);
 }
+
 .box10-main {
     max-width: 1200px;
     background-color: rgb(17, 17, 17);
     padding: 0 18px 25px 18px;
 }
 
-.accordion-item {
+.accor-1 {
     border-bottom: 0.8px solid rgb(59, 59, 59);
 }
 
-.accordion-button {
+.accor-bt {
     background-color: rgb(17, 17, 17) !important;
     padding: 17.6px 0 17.6px 0;
 }
 
-.footer-span{
+.footer-span {
     background-color: rgb(17, 17, 17) !important;
     font-family: Roboto;
     font-size: 12px;
     line-height: 18px;
 }
 
-.accordion-body {
+.accor-body {
     background-color: rgb(17, 17, 17);
     padding: 0 0 17.6px 0;
 }
@@ -300,25 +301,31 @@
     color: #fff;
     text-decoration: underline;
 }
-.footer-main span{
+
+.footer-main span {
     padding-bottom: 12px;
 }
-.footer-main li{
+
+.footer-main li {
     padding-bottom: 12px;
 }
-.sp-1{
+
+.sp-1 {
     color: rgb(68, 214, 44);
     font-family: RazerF5;
     font-size: 14.4px;
     font-weight: 400;
     letter-spacing: 0.5px;
 }
-.sp-1:hover{
+
+.sp-1:hover {
     color: rgb(68, 214, 44);
 }
-.box10-sub1{
+
+.box10-sub1 {
     border-top: 0.8px solid #2a2a2a;
 }
+
 /* esm */
 @media all and (max-width:576px) {
     .box4 {
